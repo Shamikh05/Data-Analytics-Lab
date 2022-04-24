@@ -1,0 +1,10 @@
+Mon <- c(0,6,13,20,27)
+Tue <- c(0,7,14,21,28)
+Wed <- c(1,8,15,22,29)
+Thu <- c(2,9,16,23,30)
+Fri <- c(3,10,17,24,0)
+Sat <- c(4,11,18,25,0)
+Sun <- c(5,12,19,26,0)
+
+df <- data.frame(Mon, Tue, Wed, Thu, Fri, Sat, Sun)
+print (df)
